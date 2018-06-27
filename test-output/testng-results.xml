@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="83" started-at="2018-06-27T10:18:46Z" finished-at="2018-06-27T10:18:47Z">
+    <groups>
+      <group name="flavour">
+        <method signature="sampleTest.f()[pri:0, instance:sampleTest@d56d67]" name="f" class="sampleTest"/>
+        <method signature="sampleTest.g()[pri:0, instance:sampleTest@d56d67]" name="g" class="sampleTest"/>
+      </group> <!-- flavour -->
+      <group name="fruit">
+        <method signature="sampleTest.h()[pri:0, instance:sampleTest@d56d67]" name="h" class="sampleTest"/>
+      </group> <!-- fruit -->
+    </groups>
+    <test name="Default test" duration-ms="83" started-at="2018-06-27T10:18:46Z" finished-at="2018-06-27T10:18:47Z">
+      <class name="sampleTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:sampleTest@d56d67]" name="beforeTest" is-config="true" duration-ms="19" started-at="2018-06-27T10:18:46Z" finished-at="2018-06-27T10:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:sampleTest@d56d67]" name="f" duration-ms="10" started-at="2018-06-27T10:18:46Z" finished-at="2018-06-27T10:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="g()[pri:0, instance:sampleTest@d56d67]" name="g" duration-ms="3" started-at="2018-06-27T10:18:47Z" finished-at="2018-06-27T10:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- g -->
+        <test-method status="PASS" signature="h()[pri:0, instance:sampleTest@d56d67]" name="h" duration-ms="3" started-at="2018-06-27T10:18:47Z" finished-at="2018-06-27T10:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- h -->
+      </class> <!-- sampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
